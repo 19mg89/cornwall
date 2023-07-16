@@ -1,0 +1,25 @@
+.article__header {
+    color: rgb(15, 74, 123);
+    background-color: rgba(224, 180, 122, 0.648);
+    text-align: center;
+    padding: 10px;
+}
+
+.article {
+    background-color: rgba(241, 236, 236, 0.637);
+    text-align: justify;
+    padding: 10px;
+}
+
+.article__subheader {
+    text-align: justify;
+    text-align: center;
+    font-style: italic;
+}
+
+.sub__article {
+    background-color: rgba(241, 236, 236, 0.637);
+    text-align: justify;
+    padding: 10px;
+
+}

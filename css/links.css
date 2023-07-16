@@ -1,0 +1,15 @@
+.links {
+
+    background-color: rgb(219, 219, 203);
+    text-align: center;
+    text-decoration: solid;
+    margin-bottom: 10px;
+    position: relative;
+    box-shadow: 0px 0px 41px -11px #AD8811;
+}
+
+.list {
+    text-decoration: solid;
+    text-align: justify;
+    list-style: square;
+}

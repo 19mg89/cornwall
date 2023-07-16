@@ -1,0 +1,41 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+.tableCell {
+    border: 5px groove rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+.tableHeader {
+    background-color: rgb(207, 114, 88);
+}
+
+.rowHeader {
+    background-color: rgb(180, 159, 135);
+}
+
+.tableRow:nth-child(even) {
+    background-color: rgb(166, 232, 232);
+}
+
+.tableRow:hover {
+    background: rgba(223, 176, 176, 0.637);
+}
+
+.container {
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.pricelist {
+    background-color: rgba(168, 243, 218);
+    text-align: center;
+    font-style: italic;
+    text-align: justify;
+    padding: 10px;
+}
