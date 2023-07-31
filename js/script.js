@@ -1,21 +1,27 @@
-console.log("Moje uszanowanie!");
-let description1 = document.querySelector(".description1");
-let description2 = document.querySelector(".description2");
-let description3 = document.querySelector(".description3");
-let button1 = document.querySelector(".button1");
+{
+    const welcome = () => {
+        console.log("Moje uszanowanie!");
+    }
 
-button1.addEventListener("click", () => {
-    description1.remove()
-    description2.remove()
-    description3.remove()
-});
+    const OnChangeBackgroundClick = () => {
+        body.classList.toggle("dark");
+        themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+    }
 
-let body = document.querySelector(".body");
-let button2 = document.querySelector(".button2");
-let themeName = document.querySelector(".themeName");
+    let description1 = document.querySelector(".description1");
+    let description2 = document.querySelector(".description2");
+    let description3 = document.querySelector(".description3");
+    let button1 = document.querySelector(".button1");
 
-button2.addEventListener("click", () => {
-    body.classList.toggle("dark");
+    button1.addEventListener("click", () => {
+        description1.remove()
+        description2.remove()
+        description3.remove()
+    });
 
-    themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
-});
+    let body = document.querySelector(".body");
+    let button2 = document.querySelector(".button2");
+    let themeName = document.querySelector(".themeName");
+
+    button2.addEventListener("click", OnChangeBackgroundClick);
+}
