@@ -1,7 +1,7 @@
 ![view](https://files.holidaycottages.co.uk/blogs%2F1595341680937-Blog+lead+image+%28Cornwall%29.jpg)
 # Cornwall - Homepage
 ## My first project
-Welcome to my first website. 
+Welcome to my first website built during my YouCode Frontend Developer Course. 
 ### Brief description
 This page contains informations about Cornwall. 
 ### Functions:
