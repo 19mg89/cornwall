@@ -10,13 +10,18 @@ html {
 .body {
 
     font-family: 'Ubuntu', sans-serif;
-    background-color: rgba(159, 190, 210);
+    background-image: url(/image/mount.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     max-width: 1000px;
     font-size: 26px;
     line-height: 30px;
     text-align: center;
     padding: 10px 20px;
     margin: 0 auto;
+    
 }
 
 .dark {
