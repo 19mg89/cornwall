@@ -23,6 +23,10 @@
     background-color: rgb(166, 232, 232);
 }
 
+.tableRow:nth-child(odd) {
+    background-color: rgb(46, 186, 186);
+}
+
 .tableRow:hover {
     background: rgba(223, 176, 176, 0.637);
 }
@@ -38,4 +42,5 @@
     font-style: italic;
     text-align: justify;
     padding: 10px;
+    margin-bottom: 10px;
 }
